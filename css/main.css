@@ -78,13 +78,11 @@ main {
   width: 100%;
   margin: 0;
   padding: 0;
-  display: block;
-}
+  display: block;}
 
 figure img {
   display: block;
-  width: 100%;
-}
+  width: 100%;}
 
 figure {
   position: relative;
@@ -92,9 +90,7 @@ figure {
   box-sizing: border-box;
   margin: 0;
   width: 50%;
-  float: left;
-
-}
+  float: left;}
 
 figcaption {
   display: block;
@@ -107,18 +103,15 @@ figcaption {
   position: absolute;
   bottom: 1em;
   padding: .2em;
-  background: linear-gradient(to bottom, #6fc000, #388200);
-}
+  background: linear-gradient(to bottom, #6fc000, #388200);}
 
 figcaption a {
   color: white;
-  text-decoration: none;
-}
+  text-decoration: none;}
 
 figcaption:hover {
   background-color: #388200;
-  background: linear-gradient(to bottom, #388200, #214d00);
-}
+  background: linear-gradient(to bottom, #388200, #214d00);}
 
 /*Footer*/
 
@@ -131,6 +124,7 @@ footer {
 footer img {
   margin: 0 auto;
   width: 2.5em;
+  padding-top: 1em;
   display: block;}
 
 .footer{
