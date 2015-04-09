@@ -56,6 +56,25 @@ nav a {
 	text-decoration: none;
 	color: white;}
 
+nav li:hover {
+  background-color: rgba(81,34,0,1);}
+
+/*Banner*/
+
+.ban {
+  background-image: url("../images/gravel.jpg");
+}
+
+.ban h2 {
+  margin: 0;
+  padding-top: 10em;
+  color: white;
+  padding-bottom: 1em;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5));
+}
+
 /*Footer*/
 
 footer {
