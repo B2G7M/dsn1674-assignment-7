@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+footer {
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: rgba(81,34,0,.5);
+}
+
+.footer{
+  padding: 0;
+  padding-bottom: 1.25em;
+  margin: 0;
+}
