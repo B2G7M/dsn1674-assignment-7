@@ -73,7 +73,52 @@ nav li:hover {
 
 /*Main*/
 
+main {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
 
+figure img {
+  display: block;
+  width: 100%;
+}
+
+figure {
+  position: relative;
+  bottom: 1em;
+  box-sizing: border-box;
+  margin: 0;
+  width: 50%;
+  float: left;
+
+}
+
+figcaption {
+  display: block;
+  background-color: #388200;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 20%;
+  color: white;
+  width: 70%;
+  position: absolute;
+  bottom: 1em;
+  padding: .2em;
+  background: linear-gradient(to bottom, #6fc000, #388200);
+}
+
+figcaption a {
+  color: white;
+  text-decoration: none;
+}
+
+figcaption:hover {
+  background-color: #388200;
+  background: linear-gradient(to bottom, #388200, #214d00);
+}
 
 /*Footer*/
 
