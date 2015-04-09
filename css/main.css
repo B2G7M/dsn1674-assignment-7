@@ -1,21 +1,70 @@
 html {
-  box-sizing: border-box;
-  font-family: 'Dosis', sans-serif;
+	box-sizing: border-box;
+	font-family: 'Dosis', sans-serif;
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
+
+
+body {
+	margin: 0;}
+
+/*Header*/
+
+header {
+	margin: 0;
+	background-image: url("../images/subtle_white_mini_waves.png");}
+
+h1 {
+	width: 90%;
+	margin: 0 auto;
+	font-size: 3em;
+	text-align: center;
+	background-image: url("../images/graphic.svg"),url("../images/graphic.svg");
+ 	background-repeat: no-repeat, no-repeat;
+ 	background-position: left, right;
+ 	background-size: .8em auto, .8em auto;
+	color: #512200;}
+
+
+/*Navigation*/
+
+nav {
+	display: block;
+	margin: 0;
+	width: 100%;}
+
+nav li {
+	float: left;
+	padding: .5em;
+	background-color: rgba(81,34,0,0.5);
+	box-sizing: border-box;
+	text-align: center;
+	margin: 0;
+	display: inline;
+	width: 25%;}
+
+nav ul {
+	overflow: hidden;
+	padding: 0;
+	box-sizing: border-box;
+	margin: 0;}
+
+nav a {
+	text-decoration: none;
+	color: white;}
+
+/*Footer*/
 
 footer {
-  margin: 0;
-  overflow: hidden;
-  width: 100%;
-  background-color: rgba(81,34,0,.5);
-}
+	margin: 0;
+	overflow: hidden;
+	width: 100%;
+	background-color: rgba(81,34,0,.5);}
 
 .footer{
-  padding: 0;
-  padding-bottom: 1.25em;
-  margin: 0;
-}
+	padding: 0;
+	padding-bottom: 1.25em;
+	margin: 0;}
